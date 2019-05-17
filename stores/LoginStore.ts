@@ -2,7 +2,8 @@ import {action} from "mobx";
 import firebase from "react-native-firebase";
 import {GoogleSignin} from "react-native-google-signin";
 
-import {Error, Utils} from '../common';
+import {Error, ScreenConst, Utils} from '../common';
+import {Actions} from "react-native-router-flux";
 
 class LoginStore {
     @action initLogin = async () => {
@@ -25,6 +26,8 @@ class LoginStore {
     @action userListener = async (user: any) => {
         if (user) {
             console.warn(user);
+            Actions.replace(ScreenConst.HOME);
+
         }
     };
 }
