@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "108753733179",
+    "firebase_url": "https://walkbuddy-mtc2019.firebaseio.com",
+    "project_id": "walkbuddy-mtc2019",
+    "storage_bucket": "walkbuddy-mtc2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108753733179:android:a7f25b281b543183",
+        "android_client_info": {
+          "package_name": "com.walkbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108753733179-8j76l56n7v7v3k9gfc3qnmgk8imnmokh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walkbuddy",
+            "certificate_hash": "2c3b317671b530cd1951bb17b4d6483e24a019f2"
+          }
+        },
+        {
+          "client_id": "108753733179-154gbot5p2fvtfdu4e4o58sv71tenvgv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQHhjkgXoTPWLTWhBy-Gon53vBJV9nMz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108753733179-154gbot5p2fvtfdu4e4o58sv71tenvgv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "react-native run-android",
     "test": "jest"
   },
   "dependencies": {
@@ -26,6 +26,7 @@
     "@types/react": "^16.8.17",
     "@types/react-native": "^0.57.55",
     "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
     "jest": "^24.8.0",
     "metro-react-native-babel-preset": "^0.54.0",
     "react-native-typescript-transformer": "^1.2.12",
